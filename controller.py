@@ -9,6 +9,6 @@ def button_click():
     b = ifc.get_value()
     mt.init(a,b)
     result = mt.do_it(str_)
-    ifc.get_logbook(result)
-    # lb.get_logbook(a,b,str_)
+    ifc.get_value(result)
+    # lb.get_logbook(a,b,str_,result)
     
