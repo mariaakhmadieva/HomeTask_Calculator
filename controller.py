@@ -1,6 +1,6 @@
 import interface as ifc
 import mathematics as mt
-# import logbook as lb 
+import logbook as lb 
 
 
 def button_click():
@@ -10,9 +10,5 @@ def button_click():
     mt.init(a,b)
     result = mt.do_it(str_)
     ifc.get_value(result)
-    # lb.get_logbook(a,b,str_,result)
+    lb.get_logbook(a,b,str_,result)
     
-
-    
-    
-
