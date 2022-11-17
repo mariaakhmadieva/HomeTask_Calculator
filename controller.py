@@ -12,3 +12,7 @@ def button_click():
     ifc.get_value(result)
     # lb.get_logbook(a,b,str_,result)
     
+
+    
+    
+
