@@ -9,12 +9,13 @@ def init(a, b):
 
 def do_it(operation):
     if operation == '+':
-        return x + y
+        res = x + y
     if operation == '-':
-        return x - y
+        res = x - y
     if operation == '*':
-        return x * y
+        res = x * y
     if operation == '/':
-        return x / y
+        res = x / y
     else:
-        return 'Incorrect data'
+        res = print('Incorrect data')
+    return res
