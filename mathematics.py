@@ -10,11 +10,11 @@ def init(a, b):
 def do_it(operation):
     if operation == '+':
         res = x + y
-    if operation == '-':
+    elif operation == '-':
         res = x - y
-    if operation == '*':
+    elif operation == '*':
         res = x * y
-    if operation == '/':
+    elif operation == '/':
         res = x / y
     else:
         res = print('Incorrect data')
