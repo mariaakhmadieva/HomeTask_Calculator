@@ -8,7 +8,7 @@ from fractions import Fraction
 import cmath
 
 def get_value():
-    value = input('Введите число  ')
+    value = input('Введите число: ')
     try:
         value = Fraction(value)
         return value
@@ -17,7 +17,7 @@ def get_value():
         return value
 
 def get_operations():
-    operations = input('Введите операцию  ')
+    operations = input('Введите операцию: ')
     return operations
 
 def get_result(result):
